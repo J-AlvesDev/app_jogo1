@@ -4,8 +4,10 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Caí no papo!</Text>
       <StatusBar style="auto" />
+      <View>
+        <Text> iniciar jogo </Text>
+      </View>
     </View>
   );
 }
@@ -13,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#494dd2",
     alignItems: "center",
     justifyContent: "center",
   },
